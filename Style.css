@@ -1,6 +1,7 @@
 body{
     display: flex;
     background-color: hsl(30, 38%, 92%);
+    width: 80%;
 }
 
 
@@ -8,7 +9,8 @@ body{
     display: flex;
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    margin: 100px 450px 150px 300px;
+    height: 300px;
+    margin: 100px 218px 350px 300px;
     flex-direction: row;
     justify-content: space-between;
 }
@@ -29,7 +31,7 @@ body{
     font-family: "Fraunces", sans-serif;
     font-size: 14px;
     font-weight: 500;
-    margin-left: 12px;
+    margin-left: 15px;
 
 }
 
@@ -39,8 +41,8 @@ body{
     font-family: "Fraunces", sans-serif;
     font-size: 20px;
     font-weight: bolder;
-    margin-left: 12px;
-    margin-right: 130px;
+    margin-left: 15px;
+    margin-right: 150px;
 
 }
 
@@ -50,8 +52,8 @@ body{
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 500;
-    margin-left: 12px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 50px;
 
 }
 
@@ -61,7 +63,7 @@ body{
     display: flex;
     color: hsl(158, 36%, 37%);
     font-family: "Fraunces", sans-serif;
-    margin-left: 12px;
+    margin-left: 15px;
     font-size: 16px;
 
 }
@@ -70,7 +72,7 @@ span{
     display: flex;
     color: hsl(228, 12%, 48%);
     font-family: "Fraunces", sans-serif;
-    margin-left: 12px;
+    margin-left: 15px;
     font-size: 10px;
     margin-top: 4px;
 
@@ -86,12 +88,11 @@ span{
     font-size: 14px;
     font-weight: 700;
     border-radius: 5px;
-    padding: 10px 80px 5px 5px;
+    padding: 5px 80px 5px 50px;
     margin-right: 15px;
-    margin-left: 12px;
+    margin-left: 15px;
     gap: 5px;
-    justify-content: center;
-    align-items: center ;
+ 
     
 }
 
@@ -99,7 +100,7 @@ span{
     display: flex;
     border: none;
     background-color: hsl(0, 0%, 100%);
-    margin-right: 5px;
+    margin-right: 10px;
     
     
 }
